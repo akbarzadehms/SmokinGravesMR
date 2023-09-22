@@ -321,13 +321,14 @@ mr_plot(mr_input(bx = data$beta.exposure,bxse = data$se.exposure,by = data$beta.
 ```
 
 
+
 ## Exposure 2
 
 ### Introduction
 
 * **Title:** Investigating the causality between **Age Of Initiation Smoking on GD**
 
-    + Exposure:Smoking initiation, [GSCAN consortium](https://genome.psych.umn.edu/index.php/GSCAN) | Reference paper:  [Liu Paper 2019](https://www.nature.com/articles/s41588-018-0307-5) | GWAS ID:[GCST007458](https://www.ebi.ac.uk/gwas/studies/GCST007458) 
+    + Exposure:Age of Initiation Smoking, [GSCAN consortium](https://genome.psych.umn.edu/index.php/GSCAN) | Reference paper:  [Liu Paper 2019](https://www.nature.com/articles/s41588-018-0307-5) | GWAS ID:[GCST007458](https://www.ebi.ac.uk/gwas/studies/GCST007458) 
     + **Sample size**: 341,427 
     + Outcome: Graves disease (GD) Disease, [NBC Human Database](https://humandbs.biosciencedbc.jp/en/hum0197-v3-220) | Reference paper: [Saori Sakaue Paper 2022](https://pubmed.ncbi.nlm.nih.gov/34594039/) | GWAS ID: [GCST90018847](https://www.ebi.ac.uk/gwas/studies/GCST90018847)
     + **Sample size**: 458,620 , **Number of cases**: 1,678 , **Number of controls**: 456,942
@@ -599,7 +600,7 @@ mr_plot(mr_input(bx = data$beta.exposure,bxse = data$se.exposure,by = data$beta.
 
 * **Title:** Investigating the causality between **Cigarettes per day on GD**
 
-    + Exposure:Smoking initiation, [GSCAN consortium](https://genome.psych.umn.edu/index.php/GSCAN) | Reference paper:  [Liu Paper 2019](https://www.nature.com/articles/s41588-018-0307-5) | GWAS ID:[GCST007459](https://www.ebi.ac.uk/gwas/studies/GCST007459) 
+    + Exposure:Cigarettes per day, [GSCAN consortium](https://genome.psych.umn.edu/index.php/GSCAN) | Reference paper:  [Liu Paper 2019](https://www.nature.com/articles/s41588-018-0307-5) | GWAS ID:[GCST007459](https://www.ebi.ac.uk/gwas/studies/GCST007459) 
     + **Sample size**: 377,334 
     + Outcome: Graves disease (GD) Disease, [NBC Human Database](https://humandbs.biosciencedbc.jp/en/hum0197-v3-220) | Reference paper: [Saori Sakaue Paper 2022](https://pubmed.ncbi.nlm.nih.gov/34594039/) | GWAS ID: [GCST90018847](https://www.ebi.ac.uk/gwas/studies/GCST90018847)
     + **Sample size**: 458,620 , **Number of cases**: 1,678 , **Number of controls**: 456,942
@@ -873,7 +874,7 @@ mr_plot(mr_input(bx = data$beta.exposure,bxse = data$se.exposure,by = data$beta.
 
 * **Title:** Investigating the causality between **Life time Smoking on GD**
 
-    + Exposure:Smoking initiation, [UK biobank consortium](https://www.ukbiobank.ac.uk/) | Reference paper:  [Wootton RE 2019](https://pubmed.ncbi.nlm.nih.gov/31689377/) | GWAS ID:[GCST009096](https://www.ebi.ac.uk/gwas/studies/GCST009096) 
+    + Exposure:Life time smoking, [UK biobank consortium](https://www.ukbiobank.ac.uk/) | Reference paper:  [Wootton RE 2019](https://pubmed.ncbi.nlm.nih.gov/31689377/) | GWAS ID:[GCST009096](https://www.ebi.ac.uk/gwas/studies/GCST009096) 
     + **Sample size**: 462,690
     + Outcome: Graves disease (GD) Disease, [NBC Human Database](https://humandbs.biosciencedbc.jp/en/hum0197-v3-220) | Reference paper: [Saori Sakaue Paper 2022](https://pubmed.ncbi.nlm.nih.gov/34594039/) | GWAS ID: [GCST90018847](https://www.ebi.ac.uk/gwas/studies/GCST90018847)
     + **Sample size**: 458,620 , **Number of cases**: 1,678 , **Number of controls**: 456,942
